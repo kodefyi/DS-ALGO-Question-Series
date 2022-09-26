@@ -1,4 +1,4 @@
-#time complexity-O(n) | space complexity-O(1)
+#time complexity-O(log n) | space complexity-O(1)
 
 def shiftedBinarySearch(array, target):
     return shiftedhelp(array,target,0,len(array)-1)
